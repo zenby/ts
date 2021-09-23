@@ -1,0 +1,41 @@
+.reveal {
+  font-size: 36px;
+}
+
+.reveal pre code {
+  max-height: 80%;
+}
+
+div.reveal::before {
+  content: '';
+  height: 80px;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  background-color: red;
+  z-index: 10;
+}
+
+div.reveal::after {
+  content: ':iTechArt';
+  position: fixed;
+  top: 20px;
+  left: 25px;
+  color: white;
+  font-style: initial;
+  font-weight: bold;
+  z-index: 10;
+}
+
+* {
+  /* font-family: Helvetica, sans-serif !important; */
+}
+
+::selection {
+  background: #9d4040d7 !important;
+  color: unset;
+}
+
+:root {
+  --r-heading-text-transform: none;
+}
